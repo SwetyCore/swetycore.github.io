@@ -1,7 +1,6 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:
 url: https://swetycore.github.io
 date_format: "ordinal"
 title: SwetyCore's blog
