@@ -1,14 +1,13 @@
 ---
-layout:     post
-title:      "Python的lxml库的使用"
-date:       2021-03-26 12:00:00
-author:     "swetycore"
-tags:
-    - Python
+layout: post
+title: Python的 lxml 库的使用
+categories: [爬虫,数据提取]
+description: 
+keywords: python, lxml
 ---
 
 # 前言：
-在开发自动健康打卡的过程中，因为post不止提交有当日体温，还带有最近动态等个人信息，最初是用json文件来存储信息，但是这样每次信息更新都要重新手动更新json文件很不方便，而且只能自己一个人用。
+在开发自动健康打卡的过程中，因为 post 不止提交有当日体温，还带有最近动态等个人信息，最初是用 json 文件来存储信息，但是这样每次信息更新都要重新手动更新 json 文件很不方便，而且只能自己一个人用。
 
 # 用法：
 <small>这里贴上一个我当时看的教程连接：[>点我传送<](https://www.w3school.com.cn/xml/index.asp)</small>
@@ -18,11 +17,11 @@ tags:
   2.radio类型： `<input class="weui-check" name="xb" type="radio" disabled="disabled" value="女">&nbsp;女Female</div>`  
   3.select_type：`<select id="qtyc" class="select_type" name="qtyc"><option value="" selected="selected"></option><option value="无">无 None</option><option value="不发烧但咳嗽">不发烧但咳嗽 No fever but cough</option><option value="不发烧但腹泻">不发烧但腹泻 No fever but diarrhea</option></select>`  
  + 解决方案  
-   1.导入lxml  
+   1.导入 lxml  
    `from lxml import etree`  
-   2.利用etree.HTML，将字符串解析为HTML文档
+   2.利用 etree.HTML，将字符串解析为 HTML 文档
    `html = etree.HTML(text)`  
-   3.xpath匹配  
+   3.xpath 匹配  
     ```
     result=html.xpath('//input[@type="text"]')
     html.xpath('//input[@type="number"]')

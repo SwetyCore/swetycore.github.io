@@ -1,11 +1,9 @@
 ---
 layout:     post
-title:      "用Arduino制作宿舍NFC门禁"
-date:       2021-04-04 12:00:00
-author:     "swetycore"
-tags:
-    - arduino
-    - NFC
+title:      用Arduino制作宿舍NFC门禁
+categories: [Arduino]
+description: 
+keywords: Arduino, mfRC522
 ---
 
 
