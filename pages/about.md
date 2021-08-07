@@ -8,7 +8,13 @@ menu: 关于
 permalink: /about/
 ---
 
-我是SwetyCore
+**我是SwetyCore**
+
+关于页面正在建设ing...
+
+
+
+
 
 
 
