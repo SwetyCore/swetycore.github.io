@@ -8,14 +8,8 @@ menu: 关于
 permalink: /about/
 ---
 
-我是SweyuCore
+我是SwetyCore
 
-## 联系
-
-<ul>
-{% for website in site.data.social %}
-<li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
-</ul>
 
 
 
