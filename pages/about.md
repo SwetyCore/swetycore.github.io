@@ -10,16 +10,13 @@ permalink: /about/
 
 **我是SwetyCore**
 
-关于页面正在建设ing...
+此页面正在建设ing...
 
 
 
 
 
-
-
-
-## Skill Keywords
+## 兴趣
 
 {% for skill in site.data.skills %}
 ### {{ skill.name }}
